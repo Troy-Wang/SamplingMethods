@@ -1,0 +1,14 @@
+n=100;
+radius=1;
+t=linspace(pi/2,0,100);
+xCircle=radius*cos(t);
+yCircle=radius*sin(t);
+plot(xCircle,yCircle);
+hold on;
+plot([0,1],[1,1]);
+plot([1,1],[0,1]);
+scatter(0.5,0.5,'Red','filled');
+scatter(0.1,0.1,'Red','filled');
+scatter(0.2,0.2,'Red','filled');
+scatter(2,2,'filled');
+hold off;
